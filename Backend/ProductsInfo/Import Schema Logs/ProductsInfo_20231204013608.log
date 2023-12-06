@@ -1,0 +1,87 @@
+4.12.2023 16:36:08	This log contains information about the import schema operation into project 'ProductsInfo' on computer 'DESKTOP-91O6FH9' by user 'Busenur BOZ'.
+4.12.2023 16:36:08	Import of database schema has started.
+4.12.2023 16:36:17	Gathering database credentials
+4.12.2023 16:36:17	Gathering database options
+4.12.2023 16:36:17	Gathering generic database scoped configuration option
+4.12.2023 16:36:17	Gathering users
+4.12.2023 16:36:17	Gathering roles
+4.12.2023 16:36:17	Gathering application roles
+4.12.2023 16:36:17	Gathering role memberships
+4.12.2023 16:36:17	Gathering filegroups
+4.12.2023 16:36:17	Gathering full-text catalogs
+4.12.2023 16:36:17	Gathering assemblies
+4.12.2023 16:36:17	Gathering certificates
+4.12.2023 16:36:17	Gathering asymmetric keys
+4.12.2023 16:36:17	Gathering symmetric keys
+4.12.2023 16:36:17	Gathering encrypted symmetric keys
+4.12.2023 16:36:17	Gathering schemas
+4.12.2023 16:36:17	Gathering XML schema collections
+4.12.2023 16:36:17	Gathering user-defined data types
+4.12.2023 16:36:17	Gathering user-defined types
+4.12.2023 16:36:17	Gathering table types
+4.12.2023 16:36:17	Gathering unique keys for table types
+4.12.2023 16:36:17	Gathering primary keys for table types
+4.12.2023 16:36:17	Gathering indexes for table types
+4.12.2023 16:36:17	Gathering check constraints for table types
+4.12.2023 16:36:17	Gathering default constraints for table types
+4.12.2023 16:36:17	Gathering partition functions
+4.12.2023 16:36:17	Gathering partition schemes
+4.12.2023 16:36:17	Gathering functions
+4.12.2023 16:36:17	Gathering encrypted functions
+4.12.2023 16:36:17	Gathering aggregates
+4.12.2023 16:36:17	Gathering procedures
+4.12.2023 16:36:17	Gathering encrypted procedures
+4.12.2023 16:36:17	Gathering tables
+4.12.2023 16:36:17	Gathering primary keys
+4.12.2023 16:36:17	Gathering unique constraints
+4.12.2023 16:36:17	Gathering foreign keys
+4.12.2023 16:36:17	Gathering default constraints
+4.12.2023 16:36:17	Gathering check constraints
+4.12.2023 16:36:18	Gathering views
+4.12.2023 16:36:18	Gathering encrypted views
+4.12.2023 16:36:18	Gathering indexes
+4.12.2023 16:36:18	Gathering statistics
+4.12.2023 16:36:18	Gathering full-text index stoplists
+4.12.2023 16:36:18	Gathering search property lists
+4.12.2023 16:36:18	Gathering search properties
+4.12.2023 16:36:18	Gathering full-text indexes
+4.12.2023 16:36:18	Gathering column store indexes
+4.12.2023 16:36:18	Gathering spatial indexes
+4.12.2023 16:36:18	Gathering XML indexes
+4.12.2023 16:36:18	Gathering Selective XML indexes
+4.12.2023 16:36:18	Gathering encrypted triggers
+4.12.2023 16:36:18	Gathering triggers
+4.12.2023 16:36:18	Gathering encrypted and clr ddl triggers
+4.12.2023 16:36:18	Gathering ddl triggers
+4.12.2023 16:36:18	Creating edge constraints
+4.12.2023 16:36:18	Gathering synonyms
+4.12.2023 16:36:18	Gathering defaults
+4.12.2023 16:36:18	Gathering data constraint uddt bindings
+4.12.2023 16:36:18	Gathering rules
+4.12.2023 16:36:18	Gathering data constraint uddt bindings
+4.12.2023 16:36:18	Gathering message types
+4.12.2023 16:36:18	Gathering queues
+4.12.2023 16:36:18	Gathering contracts
+4.12.2023 16:36:18	Gathering services
+4.12.2023 16:36:18	Gathering event notifications
+4.12.2023 16:36:18	Gathering remote service bindings
+4.12.2023 16:36:18	Gathering broker priorities
+4.12.2023 16:36:18	Gathering signatures
+4.12.2023 16:36:18	Gathering data compression options
+4.12.2023 16:36:18	Gathering sequence types
+4.12.2023 16:36:18	Gathering security policies
+4.12.2023 16:36:18	Gather column encryption keys
+4.12.2023 16:36:18	Gathering column master keys
+4.12.2023 16:36:18	Gathering external data sources
+4.12.2023 16:36:18	Gathering external file formats
+4.12.2023 16:36:18	Gathering external tables
+4.12.2023 16:36:18	Gathering extended properties
+4.12.2023 16:36:18	Gathering assemblies
+4.12.2023 16:36:18	Gathering credentials
+4.12.2023 16:36:18	Gathering logins
+4.12.2023 16:36:18	Gathering server audits
+4.12.2023 16:36:19	Scanning project for duplicate elements
+4.12.2023 16:36:19	Finished duplicate element processing
+4.12.2023 16:36:19	Finished importing database.
+4.12.2023 16:36:19	A summary of the import was saved to the following location: C:\Users\Busenur BOZ\source\repos\ProductsInfo\ProductsInfo\ProductsInfo\Import Schema Logs\ProductsInfo_20231204013608.log
+4.12.2023 16:36:20	Click Finish to continue...

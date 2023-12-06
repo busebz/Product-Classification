@@ -1,0 +1,24 @@
+C:\Users\Busenur BOZ\Desktop\ProjeStaj\ProjeStaj\bin\Debug\ProjeStaj.exe.config
+C:\Users\Busenur BOZ\Desktop\ProjeStaj\ProjeStaj\bin\Debug\ProjeStaj.exe
+C:\Users\Busenur BOZ\Desktop\ProjeStaj\ProjeStaj\bin\Debug\ProjeStaj.pdb
+C:\Users\Busenur BOZ\Desktop\ProjeStaj\ProjeStaj\obj\Debug\ProjeStaj.csproj.AssemblyReference.cache
+C:\Users\Busenur BOZ\Desktop\ProjeStaj\ProjeStaj\obj\Debug\ProjeStaj.csproj.SuggestedBindingRedirects.cache
+C:\Users\Busenur BOZ\Desktop\ProjeStaj\ProjeStaj\obj\Debug\ProjeStaj.Form1.resources
+C:\Users\Busenur BOZ\Desktop\ProjeStaj\ProjeStaj\obj\Debug\ProjeStaj.Form2.resources
+C:\Users\Busenur BOZ\Desktop\ProjeStaj\ProjeStaj\obj\Debug\ProjeStaj.Properties.Resources.resources
+C:\Users\Busenur BOZ\Desktop\ProjeStaj\ProjeStaj\obj\Debug\ProjeStaj.csproj.GenerateResource.cache
+C:\Users\Busenur BOZ\Desktop\ProjeStaj\ProjeStaj\obj\Debug\ProjeStaj.csproj.CoreCompileInputs.cache
+C:\Users\Busenur BOZ\Desktop\ProjeStaj\ProjeStaj\obj\Debug\ProjeStaj.exe
+C:\Users\Busenur BOZ\Desktop\ProjeStaj\ProjeStaj\obj\Debug\ProjeStaj.pdb
+C:\Users\Busenur BOZ\Desktop\SINIFINA GÖRE OKUL\3.sınıf\2.DÖNEM\ProjeStaj\ProjeStaj\bin\Debug\ProjeStaj.exe.config
+C:\Users\Busenur BOZ\Desktop\SINIFINA GÖRE OKUL\3.sınıf\2.DÖNEM\ProjeStaj\ProjeStaj\bin\Debug\ProjeStaj.exe
+C:\Users\Busenur BOZ\Desktop\SINIFINA GÖRE OKUL\3.sınıf\2.DÖNEM\ProjeStaj\ProjeStaj\bin\Debug\ProjeStaj.pdb
+C:\Users\Busenur BOZ\Desktop\SINIFINA GÖRE OKUL\3.sınıf\2.DÖNEM\ProjeStaj\ProjeStaj\obj\Debug\ProjeStaj.csproj.AssemblyReference.cache
+C:\Users\Busenur BOZ\Desktop\SINIFINA GÖRE OKUL\3.sınıf\2.DÖNEM\ProjeStaj\ProjeStaj\obj\Debug\ProjeStaj.csproj.SuggestedBindingRedirects.cache
+C:\Users\Busenur BOZ\Desktop\SINIFINA GÖRE OKUL\3.sınıf\2.DÖNEM\ProjeStaj\ProjeStaj\obj\Debug\ProjeStaj.Form1.resources
+C:\Users\Busenur BOZ\Desktop\SINIFINA GÖRE OKUL\3.sınıf\2.DÖNEM\ProjeStaj\ProjeStaj\obj\Debug\ProjeStaj.Form2.resources
+C:\Users\Busenur BOZ\Desktop\SINIFINA GÖRE OKUL\3.sınıf\2.DÖNEM\ProjeStaj\ProjeStaj\obj\Debug\ProjeStaj.Properties.Resources.resources
+C:\Users\Busenur BOZ\Desktop\SINIFINA GÖRE OKUL\3.sınıf\2.DÖNEM\ProjeStaj\ProjeStaj\obj\Debug\ProjeStaj.csproj.GenerateResource.cache
+C:\Users\Busenur BOZ\Desktop\SINIFINA GÖRE OKUL\3.sınıf\2.DÖNEM\ProjeStaj\ProjeStaj\obj\Debug\ProjeStaj.csproj.CoreCompileInputs.cache
+C:\Users\Busenur BOZ\Desktop\SINIFINA GÖRE OKUL\3.sınıf\2.DÖNEM\ProjeStaj\ProjeStaj\obj\Debug\ProjeStaj.exe
+C:\Users\Busenur BOZ\Desktop\SINIFINA GÖRE OKUL\3.sınıf\2.DÖNEM\ProjeStaj\ProjeStaj\obj\Debug\ProjeStaj.pdb

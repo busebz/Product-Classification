@@ -1,0 +1,33 @@
+C:\Users\Busenur BOZ\Desktop\ProjeStaj\ProductClassification\bin\Debug\ProductClassification.exe.config
+C:\Users\Busenur BOZ\Desktop\ProjeStaj\ProductClassification\bin\Debug\ProductClassification.exe
+C:\Users\Busenur BOZ\Desktop\ProjeStaj\ProductClassification\bin\Debug\ProductClassification.pdb
+C:\Users\Busenur BOZ\Desktop\ProjeStaj\ProductClassification\obj\Debug\ProductClassification.csproj.AssemblyReference.cache
+C:\Users\Busenur BOZ\Desktop\ProjeStaj\ProductClassification\obj\Debug\ProjeStaj.MainPage.resources
+C:\Users\Busenur BOZ\Desktop\ProjeStaj\ProductClassification\obj\Debug\ProjeStaj.NewProduct.resources
+C:\Users\Busenur BOZ\Desktop\ProjeStaj\ProductClassification\obj\Debug\ProductClassification.Properties.Resources.resources
+C:\Users\Busenur BOZ\Desktop\ProjeStaj\ProductClassification\obj\Debug\ProductClassification.csproj.GenerateResource.cache
+C:\Users\Busenur BOZ\Desktop\ProjeStaj\ProductClassification\obj\Debug\ProductClassification.csproj.CoreCompileInputs.cache
+C:\Users\Busenur BOZ\Desktop\ProjeStaj\ProductClassification\obj\Debug\ProductClassification.exe
+C:\Users\Busenur BOZ\Desktop\ProjeStaj\ProductClassification\obj\Debug\ProductClassification.pdb
+C:\Users\Busenur BOZ\Desktop\ProductClassification\ProductClassification\bin\Debug\ProductClassification.exe.config
+C:\Users\Busenur BOZ\Desktop\ProductClassification\ProductClassification\bin\Debug\ProductClassification.exe
+C:\Users\Busenur BOZ\Desktop\ProductClassification\ProductClassification\bin\Debug\ProductClassification.pdb
+C:\Users\Busenur BOZ\Desktop\ProductClassification\ProductClassification\obj\Debug\ProductClassification.csproj.AssemblyReference.cache
+C:\Users\Busenur BOZ\Desktop\ProductClassification\ProductClassification\obj\Debug\ProjeStaj.MainPage.resources
+C:\Users\Busenur BOZ\Desktop\ProductClassification\ProductClassification\obj\Debug\ProjeStaj.NewProduct.resources
+C:\Users\Busenur BOZ\Desktop\ProductClassification\ProductClassification\obj\Debug\ProductClassification.Properties.Resources.resources
+C:\Users\Busenur BOZ\Desktop\ProductClassification\ProductClassification\obj\Debug\ProductClassification.csproj.GenerateResource.cache
+C:\Users\Busenur BOZ\Desktop\ProductClassification\ProductClassification\obj\Debug\ProductClassification.csproj.CoreCompileInputs.cache
+C:\Users\Busenur BOZ\Desktop\ProductClassification\ProductClassification\obj\Debug\ProductClassification.exe
+C:\Users\Busenur BOZ\Desktop\ProductClassification\ProductClassification\obj\Debug\ProductClassification.pdb
+C:\Users\Busenur BOZ\Desktop\VISUAL STUDIO\ProductClassification\ProductClassification\bin\Debug\ProductClassification.exe.config
+C:\Users\Busenur BOZ\Desktop\VISUAL STUDIO\ProductClassification\ProductClassification\bin\Debug\ProductClassification.exe
+C:\Users\Busenur BOZ\Desktop\VISUAL STUDIO\ProductClassification\ProductClassification\bin\Debug\ProductClassification.pdb
+C:\Users\Busenur BOZ\Desktop\VISUAL STUDIO\ProductClassification\ProductClassification\obj\Debug\ProductClassification.csproj.AssemblyReference.cache
+C:\Users\Busenur BOZ\Desktop\VISUAL STUDIO\ProductClassification\ProductClassification\obj\Debug\ProjeStaj.MainPage.resources
+C:\Users\Busenur BOZ\Desktop\VISUAL STUDIO\ProductClassification\ProductClassification\obj\Debug\ProjeStaj.NewProduct.resources
+C:\Users\Busenur BOZ\Desktop\VISUAL STUDIO\ProductClassification\ProductClassification\obj\Debug\ProductClassification.Properties.Resources.resources
+C:\Users\Busenur BOZ\Desktop\VISUAL STUDIO\ProductClassification\ProductClassification\obj\Debug\ProductClassification.csproj.GenerateResource.cache
+C:\Users\Busenur BOZ\Desktop\VISUAL STUDIO\ProductClassification\ProductClassification\obj\Debug\ProductClassification.csproj.CoreCompileInputs.cache
+C:\Users\Busenur BOZ\Desktop\VISUAL STUDIO\ProductClassification\ProductClassification\obj\Debug\ProductClassification.exe
+C:\Users\Busenur BOZ\Desktop\VISUAL STUDIO\ProductClassification\ProductClassification\obj\Debug\ProductClassification.pdb
