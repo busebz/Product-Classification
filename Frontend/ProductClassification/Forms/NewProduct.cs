@@ -35,21 +35,38 @@ namespace ProjeStaj
 
         }
 
-        public int IsThere(string progress_type, string type, int min_value,int max_value, int coefficient)
+        public int IsThere(string progress_type, string type, int min_value, int max_value, int coefficient)
         {
-            int result;
-            conn = new SqlConnection("server=DESKTOP-91O6FH9\\SQLEXPRESS; Initial Catalog=ProductsInfo;Integrated Security=true");
-            string query = "Select COUNT(product_id) from Product WHERE progress_type='" + progress_type + "' and " +
-                "type= '" + type +"' and min_value = '" + min_value + "' and max_value = '" + max_value +"' and " +
-                "coefficient = '" + coefficient + "'";
-            SqlCommand command = new SqlCommand(query, conn);
-            conn.Open();
+            int result = 0;
+            string connectionString = ConfigurationManager.ConnectionStrings["MyDbConnection"].ConnectionString;
 
-            result = Convert.ToInt32(command.ExecuteScalar());
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                try
+                {
+                    string query = "SELECT COUNT(product_id) FROM Product WHERE progress_type = @progress_type AND " +
+                                   "type = @type AND min_value = @min_value AND max_value = @max_value AND coefficient = @coefficient";
 
-            conn.Close();
+                    SqlCommand command = new SqlCommand(query, conn);
+                    command.Parameters.AddWithValue("@progress_type", progress_type);
+                    command.Parameters.AddWithValue("@type", type);
+                    command.Parameters.AddWithValue("@min_value", min_value);
+                    command.Parameters.AddWithValue("@max_value", max_value);
+                    command.Parameters.AddWithValue("@coefficient", coefficient);
+
+                    conn.Open();
+                    result = Convert.ToInt32(command.ExecuteScalar());
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Error: " + ex.Message);
+                }
+                finally
+                {
+                    conn.Close();
+                }
+            }
             return result;
-
         }
 
         public void AddProgressTypetoCombobox()
@@ -58,18 +75,34 @@ namespace ProjeStaj
             conn = new SqlConnection();
             SqlDataReader dr;
 
-            conn = new SqlConnection("server=DESKTOP-91O6FH9\\SQLEXPRESS; Initial Catalog=ProductsInfo;Integrated Security=true");
-            SqlCommand cmd = new SqlCommand("Select * from ProgressType", conn);
+            string connectionString = ConfigurationManager.ConnectionStrings["MyDbConnection"].ConnectionString;
 
-            conn.Open();
-            dr = cmd.ExecuteReader();
-
-            while (dr.Read())
+            using (SqlConnection conn = new SqlConnection(connectionString))
             {
-                comboBoxProgressType.Items.Add(dr["ProgressType"]);
-            }
+                try
+                {
+                    SqlCommand cmd = new SqlCommand("Select * from ProgressType", conn);
 
-            conn.Close();
+                    conn.Open();
+                    dr = cmd.ExecuteReader();
+
+                    while (dr.Read())
+                    {
+                        comboBoxProgressType.Items.Add(dr["ProgressType"]);
+                    }
+
+                    conn.Close();
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Error: " + ex.Message);
+                }
+                finally
+                {
+                    conn.Close();
+                }
+
+            }
         }
 
         private void comboBoxHakedisTipi_SelectedIndexChanged(object sender, EventArgs e)
@@ -95,23 +128,37 @@ namespace ProjeStaj
         private void AddInfoToSql()
         {
             conn = new SqlConnection();
-            conn = new SqlConnection("server=DESKTOP-91O6FH9\\SQLEXPRESS; Initial Catalog=ProductsInfo;Integrated Security=true");
-            conn.Open();
-            string add = "insert into Product(progress_type,type,min_value,max_value,coefficient) values (@progress_type,@type, @min_value, @max_value,@coefficient)";
-            SqlCommand command = new SqlCommand(add, conn);
+            string connectionString = ConfigurationManager.ConnectionStrings["MyDbConnection"].ConnectionString;
+
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                try
+                {
+                    conn.Open();
+                    string add = "insert into Product(progress_type,type,min_value,max_value,coefficient) values (@progress_type,@type, @min_value, @max_value,@coefficient)";
+                    SqlCommand command = new SqlCommand(add, conn);
 
 
-            command.Parameters.AddWithValue("@progress_type", progress_type);
-            command.Parameters.AddWithValue("@type", type);
-            command.Parameters.AddWithValue("@min_value", minValue);
-            command.Parameters.AddWithValue("@max_value", maxValue);
-            command.Parameters.AddWithValue("@coefficient", int.Parse(textBoxCoefficient.Text));
+                    command.Parameters.AddWithValue("@progress_type", progress_type);
+                    command.Parameters.AddWithValue("@type", type);
+                    command.Parameters.AddWithValue("@min_value", minValue);
+                    command.Parameters.AddWithValue("@max_value", maxValue);
+                    command.Parameters.AddWithValue("@coefficient", int.Parse(textBoxCoefficient.Text));
 
-            command.ExecuteNonQuery();
+                    command.ExecuteNonQuery();
 
-            conn.Close();
+                    conn.Close();
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Error: " + ex.Message);
+                }
+                finally
+                {
+                    conn.Close();
+                }
+            }
         }
-
 
         private void buttonEkle_Click(object sender, EventArgs e)
         {
@@ -186,10 +233,8 @@ namespace ProjeStaj
                 }              
             }
             
-
-
         }
-
-        
+       
     }
+    
 }
